@@ -1,0 +1,44 @@
+:root {
+  --primary:#9e96cf;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: monospace;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style:circle;
+}
+
+.list {
+  list-style: square;
+}
+
+#msg {
+  font-family: monospace;
+}
+
+.light-theme {
+  --bg:var(--primary);
+  --fontColor:var(--black);
+}
+.dark-theme {
+  --bg:var(--black);
+  --fontColor:var(--primary);
+}
+.btn {
+  position: absolute;
+  top:20px;
+  left:250px;
+  border-radius: 50%;
+  color:var(--btnFontColor);
+  background-color: var(--btnBg);
+}
